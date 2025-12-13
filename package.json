@@ -1,0 +1,42 @@
+{
+  "name": "nitish-portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio website showcasing skills, projects, and experience",
+  "main": "index.html",
+  "scripts": {
+    "dev": "live-server --port=3000 --open=/index.html",
+    "build": "npm run minify-css && npm run minify-js",
+    "minify-css": "cleancss -o dist/style.min.css style.css",
+    "minify-js": "uglifyjs script.js -o dist/script.min.js",
+    "deploy": "gh-pages -d .",
+    "dev:vite": "vite",
+    "build:vite": "vite build",
+    "dev:webpack": "webpack serve",
+    "build:webpack": "webpack --mode=production",
+    "lint": "eslint script.js",
+    "format": "prettier --write *.html *.css *.js"
+  },
+  "keywords": ["portfolio", "website", "personal", "developer"],
+  "author": "Nitish Kumar Kadiveti",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "clean-css-cli": "^5.6.2",
+    "uglify-js": "^3.17.4",
+    "gh-pages": "^6.0.0",
+    "eslint": "^8.50.0",
+    "prettier": "^3.0.3",
+    "vite": "^4.4.9",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1",
+    "html-webpack-plugin": "^5.5.3",
+    "mini-css-extract-plugin": "^2.7.6",
+    "css-loader": "^6.8.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nitish-kadiveti/Portfolio.git"
+  },
+  "homepage": "https://nitish-kadiveti.github.io/Portfolio/"
+}
