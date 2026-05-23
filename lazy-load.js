@@ -19,6 +19,6 @@ document.addEventListener('DOMContentLoaded', function() {
 // Preload critical resources
 const preloadLink = document.createElement('link');
 preloadLink.rel = 'preload';
-preloadLink.href = 'images/banner2.jpg';
+//preloadLink.href = 'images/banner2.jpg';
 preloadLink.as = 'image';
 document.head.appendChild(preloadLink);
