@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Portfolio Website
 
 Welcome to my personal portfolio! This repository hosts the code for my portfolio website, showcasing my skills, projects, and professional experience.
@@ -26,3 +27,7 @@ Welcome to my personal portfolio! This repository hosts the code for my portfoli
 1. Clone the repository:
    ```bash
    git clone https://github.com/nitish-kadiveti/Portfolio.git
+=======
+# Portfolio
+Portfolio
+>>>>>>> 2e565d21def425567fc6236c0b8a59d1c8411806
